@@ -1,68 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Chingu pre-work (Voyage 11) Tier 3
 
-## Available Scripts
+This is my Journal Web App for Chingu Tier 3.
 
-In the project directory, you can run:
+The live site can be found here [https://silly-fermat-fbcd05.netlify.com/](https://silly-fermat-fbcd05.netlify.com/)
 
-### `npm start`
+### Features
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1.  Site has both a backend and front end
+2.  Responsive Design (works on all screen sizes)
+3.  User Authentication
+4.  Real Time Database via **Google Firebase**
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+The App allows users to sign up/login and start creating notes. All their data is protected via **authentication** with Google Firebase.
 
-### `npm test`
+Users can **add** and/or **delete** as many notes as they wish. All the notes are stored in a database hosted by **Google Firbebase.**
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The **database** is real time, meaning that as soon as the user **creates** or **deletes** a note, the database instantly updates.
 
-### `npm run build`
+### Technologies
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- The front-end was built with **React**.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+- The backend _database_ and _authentication_ was built with **Google Firebase**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- The design was inspired by Google's **Material Design** philosphy.
 
-### `npm run eject`
+# Replication
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Follow these instructions if you want to try the code yourself:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. Git clone the Repo (click the green button on the right)
+2. **cd** into **chingu-prework-tier3**
+3. Run **npm install**
+4. Finally, **npm start**
